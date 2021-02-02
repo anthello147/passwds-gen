@@ -3,6 +3,7 @@ A simple command-line program to generate a list of passwords.
 
 ## Table of contents
 * [Overview](#overview)
+* [To do](#to-do)
 * [Releases](#releases)
 * [Requirements](#requirements)
 * [Installation](#installation)
@@ -14,6 +15,9 @@ A simple command-line program to generate a list of passwords.
 
 ## Overview
 passwds-gen is a simple C++ command-line program which generates a list of passwords. Each password is a sequence of random letters or numbers. The default number of passwords generated is one, however, the user can specify the number of passwords to be generated using passwd-gen's `-n` flag. The length of the password can be set in a similar fashion using the `-l` flag. For more information on usage see [Usage examples](#usage-examples).
+
+## To do
+* Make the readme short and concise.
 
 ## Releases
 There are three types of passwds-gen releases: stable, beta, and unstable. When the repository reaches a beta version, the git commit name will be prefixed with X.XX-BETA (with 'X.XX' being the program version number). The same goes for stable versions, except that the git commit will be prefixed by X.XX-STABLE. All other versions in this GitHub repository are treated as unstable.
