@@ -62,7 +62,7 @@ To add the `C:\Program Files\passwds-gen` folder to PATH, you will need to be an
 
 In this window, in the bottom area under the heading "System variables", select the row that says "Path" and press the "Edit" button at the bottom of the window. This will open another window.
 
-This new window should have multiple rows. On the right, press "New" and you will see a cursor in the first free row available. In that row, type in `C:\Program Files\passwds-gen\ `. When you are finished, press the "OK" button. You are now ready to use passwds-gen.
+This new window should have multiple rows. On the right, press "New" and you will see a cursor in the first free row available. In that row, type in `C:\Program Files\passwds-gen\`. When you are finished, press the "OK" button. You are now ready to use passwds-gen.
 
 #### Mac OS:
 At the command-line, change your current directory to the location of the downloaded source code using the `cd` command (replace `/Users/foobar/Downloads` with the location of your downloaded source code):
