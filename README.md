@@ -2,7 +2,6 @@
 A simple command-line program to generate a list of passwords.
 
 ## Table of contents
-* [Overview](#overview)
 * [Releases](#releases)
 * [Requirements](#requirements)
 * [Installation](#installation)
@@ -11,11 +10,8 @@ A simple command-line program to generate a list of passwords.
 * [Building from source](#building-from-source)
 * [Usage examples](#usage-examples)
 
-## Overview
-passwds-gen is a simple C++ command-line program which generates a list of passwords, each a sequence of random letters or numbers.
-
 ## Releases
-Installers for the latest passwds-gen stable and beta releases will be available in the [releases](https://github.com/anthello147/passwds-gen/releases) tab. Most users will want this option. For installation instructions see [Installation](#installation). 
+Installers for stable and beta releases of passwds-gen will be available in the [releases](https://github.com/anthello147/passwds-gen/releases) tab. For installation instructions see [Installation](#installation). 
 
 **Latest stable release:** none.<br>
 **Latest beta release:** 0.30.
@@ -26,7 +22,7 @@ Installers for the latest passwds-gen stable and beta releases will be available
 * (If building from source) A C++ compiler 
 
 ## Installation
-In the [Releases](#releases) section, find and download the package for your operating system.
+In the [releases](#releases) tab, find and download the package for your operating system.
 
 On Windows, right-click on the ".bat" file in the extracted package and click "Run as administrator". The installation process from that point on should be straightforward.
 
@@ -40,17 +36,15 @@ For usage after installation see [Usage examples](#usage-examples).
 ## Building from source
 
 #### Windows:
-Note: In the following instructions, replace "Program Files" with "Program Files (x86)" for 32-bit machines.
-
 At the command-line, change your working directory to the location of the downloaded source code (replace `C:\Users\foobar\Downloads` with the location of your downloaded source code):
 ```commandline
 C:\Users\foobar> cd "C:\Users\foobar\Downloads"
 ```
-Then, compile the source code:
+Then, compile:
 ```commandline
 C:\Users\foobar\Downloads> g++ passwds-gen.cpp -o passwds-gen.exe
 ```
-After.that create the folder `passwds-gen` in the folder `C:\Program Files` and move the compiled passwds-gen.exe file to the newly created folder. A dialog may pop up asking for administrative privileges to move the file; agree to this.
+After that create the folder `passwds-gen` in `C:\Program Files` and move the compiled passwds-gen.exe file to the newly created folder. A dialog may pop up asking for administrative privileges to move the file; agree to this.
 
 You will then need to add `C:\Program Files\passwds-gen` to PATH. You can do this through Control Panel.
 
@@ -63,7 +57,7 @@ Then, compile the source code:
 ```commandline
 $ g++ passwds-gen.cpp -o passwds-gen
 ```
-After that, you will need to move the compiled program to `/usr/local/bin` with root/administrative privileges:
+After that, move the compiled program to `/usr/local/bin` with root/administrative privileges:
 ```commandline
 # mv passwds-gen /usr/local/bin/passwds-gen
 ```
@@ -71,7 +65,7 @@ After that, you will need to move the compiled program to `/usr/local/bin` with 
 ## Usage examples
 To use passwds-gen, open Terminal/Command Prompt and execute one of the commands shown in the below usage examples. If you are unsure, you can always just type `passwds-gen --help` into Terminal.
 
-Note: do not type in the '$' sign at the Terminal/Command Prompt when executing these commands. It is simply there to show the required user privileges.
+Note: do not type in the '$' sign in Terminal/Command Prompt when executing these commands. It is simply there to show the required user privileges.
 
 Without command-line flags or options:
 ```commandline
