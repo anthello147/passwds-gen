@@ -40,7 +40,7 @@ For usage after installation see [Usage examples](#usage-examples).
 ## Building from source
 
 #### Windows:
-Note: If you are building on a 32-bit machine, replace "Program Files" with "Program Files (x86)" in the following instructions.
+Note: In the following instructions, replace "Program Files" with "Program Files (x86)" for 32-bit machines.
 
 At the command-line, change your working directory to the location of the downloaded source code (replace `C:\Users\foobar\Downloads` with the location of your downloaded source code):
 ```commandline
@@ -55,7 +55,7 @@ After.that create the folder `passwds-gen` in the folder `C:\Program Files` and 
 You will then need to add `C:\Program Files\passwds-gen` to PATH. You can do this through Control Panel.
 
 #### Mac OS, Linux, and FreeBSD:
-At the command-line, change your working directory to the location of the downloaded source code using the `cd` command (replace `/home/foobar/Downloads` with the location of your downloaded source code):
+At the command-line, change your working directory to the location of the downloaded source code (replace `/home/foobar/Downloads` with the location of your downloaded source code):
 ```commandline
 $ cd /home/foobar/Downloads
 ```
@@ -63,13 +63,13 @@ Then, compile the source code:
 ```commandline
 $ g++ passwds-gen.cpp -o passwds-gen
 ```
-At this point, you will need to move the compiled program to `/usr/local/bin` with root/administrative privileges:
+After that, you will need to move the compiled program to `/usr/local/bin` with root/administrative privileges:
 ```commandline
 # mv passwds-gen /usr/local/bin/passwds-gen
 ```
 
 ## Usage examples
-To use passwds-gen, open a Terminal/Command Prompt and execute one of the commands shown in the below usage examples. If you are unsure, you can always just type `passwds-gen` into your Terminal or `passwds-gen --help`.
+To use passwds-gen, open Terminal/Command Prompt and execute one of the commands shown in the below usage examples. If you are unsure, you can always just type `passwds-gen --help` into Terminal.
 
 Note: do not type in the '$' sign at the Terminal/Command Prompt when executing these commands. It is simply there to show the required user privileges.
 
@@ -93,14 +93,4 @@ When specifying the character length of the passwords to generate:
 ```commandline
 $ passwds-gen -l 15
 nSYixV7E2dWtWjA
-```
-
-When specifying both the number of passwords and the character length:
-```commandline
-$ passwds-gen -n 5 -l 15
-dcULRl3eZIlvcT6
-nvxS3GMR8jw8ZSS
-pXVczDquHg4UD8G
-zl2Y6WyIEyU3xML
-g2z47Yznm8vgUZe
 ```
