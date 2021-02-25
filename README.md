@@ -89,4 +89,4 @@ $ passwds-gen -l 15
 nSYixV7E2dWtWjA
 ```
 
-You can also use multiple flags to specify both the number and length of passwords to generate.
+You can also use both flags simulatenously to specify both the number and length of passwords to generate.
