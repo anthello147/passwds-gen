@@ -88,3 +88,5 @@ When specifying the character length of the passwords to generate:
 $ passwds-gen -l 15
 nSYixV7E2dWtWjA
 ```
+
+You can also use multiple flags to specify both the number and length of passwords to generate.
