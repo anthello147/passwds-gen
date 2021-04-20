@@ -63,7 +63,7 @@ After that, move the compiled program to `/usr/local/bin` with root/administrati
 ```
 
 ## Usage examples
-To use passwds-gen, open Terminal/Command Prompt and execute one of the commands shown in the below usage examples. If you are unsure, you can always just type `passwds-gen --help` into Terminal.
+To use passwds-gen, open Terminal/Command Prompt and execute one of the commands shown in the below usage examples. If you are unsure, you can always just type `passwds-gen -h` into Terminal.
 
 Note: do not type in the '$' sign in Terminal/Command Prompt when executing these commands. It is simply there to show the required user privileges.
 
