@@ -11,7 +11,7 @@ A simple command-line program to generate a list of passwords.
 * [Usage examples](#usage-examples)
 
 ## Releases
-Installers for stable and beta releases of passwds-gen will be available in the [releases](https://github.com/anthello147/passwds-gen/releases) tab. For installation instructions see [Installation](#installation). 
+Installers for stable and beta releases of passwds-gen are available in the [releases](https://github.com/anthello147/passwds-gen/releases) tab. For installation instructions see [Installation](#installation). 
 
 **Latest stable release:** none.<br>
 **Latest beta release:** 0.30.
